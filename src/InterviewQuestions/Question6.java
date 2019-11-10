@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Question6 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		//Write a Java Program to find whether a String is palindrome or not?
 		String original, reverse = ""; // Objects of String class
 	    Scanner scan = new Scanner(System.in);

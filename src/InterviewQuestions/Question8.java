@@ -3,7 +3,7 @@ package InterviewQuestions;
 public class Question8 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		//Write a Java Program to print first 10 numbers of Fibonacci series.
 		
 		int[] arr=new int[12];
@@ -15,12 +15,12 @@ public class Question8 {
 	}
         System.out.println();
        
-        int num = 0;
+        int num = 0;//the easiest way
         int num2 = 1;
-        int loop;
+        //int loop;
         int fibonacci;
         System.out.print(num2);
-        for (loop = 1; loop <= 10; loop ++)
+        for (int i = 1; i <= 10; i ++)
         {
             fibonacci = num + num2;
             num = num2;

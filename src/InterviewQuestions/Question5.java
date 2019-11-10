@@ -18,6 +18,12 @@ public class Question5 {
         System.out.print(array[i]+" ");
         }
 
+        String str1="Welcome to the Java Class.";
+        char[] charArr=str1.toCharArray();
+        
+        for(int i=charArr.length-1; i>=0; i--) {
+            System.out.print(charArr[i]);
+        }
 	}
 
 }
