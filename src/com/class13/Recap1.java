@@ -3,8 +3,7 @@ package com.class13;
 public class Recap1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
 		String str1= "Hello";//cok cok onemli
 		String str3="Hello"; //str1 ve 3 ayni oldugu icin java 3 u aklinda tutmuyor artik
 							//new object with the same value will not be created

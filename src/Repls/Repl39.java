@@ -27,13 +27,39 @@ public class Repl39 {
 //		System.out.println(instructor+ "Will take care of Java Assignment");
 //		break;
 //	}
+		String instructor, teaches;
+	Scanner scan=new Scanner(System.in);
+	System.out.println("Enter name of the instructor");
+	instructor=scan.nextLine();
+	switch(instructor) {
+	case"Shiva":
+		teaches="Java";
+		System.out.println(" Shiva teaches "+teaches);
+		break;
+	case "Sandish":
+		teaches="SDLC";
+		System.out.println(" Sandish teaches "+teaches);
+		break;
+	case "Weqas":
+		teaches="Selenium";
+		System.out.println(" Weqas teaches "+teaches);
+		break;
+	case "Asel":
+		teaches="every Assignment";
+		System.out.println(" Asel teaches "+teaches);
+		break;
+	default :
+		teaches="invalid";
+		System.out.println( "Invalid name");
+		break;
 	
-	
+	}
+	scan.close();
 	
 	}
 
 	
-		// TODO Auto-generated method stub
+		
 		
 	}
 

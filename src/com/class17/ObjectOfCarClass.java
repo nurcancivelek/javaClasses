@@ -25,6 +25,8 @@ public class ObjectOfCarClass {
 		
 		Car car2=new Car();
 		car2.make="BMW";
+		
+		
 		car2.model="X5";
 		car2.color="Black";
 		car2.year=2020;
