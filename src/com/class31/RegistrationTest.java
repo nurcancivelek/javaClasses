@@ -8,6 +8,10 @@ public class RegistrationTest extends Registration{
 		r.getEmail("nurcan@gil.com");
 		r.getUserName("nurca");
 		r.getPassword("1234");
+		
+		r.getEmail("nurcan@gmail.com");
+		r.getUserName("nurcan");
+		r.getPassword("12345678");
 	}
 
 }

@@ -9,6 +9,14 @@ public interface TakesScreenshot {
     void closeBrowser();
     void maximazeWindow();
     void findElement();
+    //added from jdk 1.8
+    static void takesSelfie() {
+    	System.out.println("i am defined static method of TSS interface");
+    }
+    static void takePicture() {
+    	System.out.println("i am defined static method of TSS interface");
+    }
+    
 }
 
 abstract class Browser {

@@ -13,22 +13,22 @@ public class Registration {
 		
 		public String getEmail(String email) {
 			
-			if(email.contains("gmail")) {
+			if(email.contains("@gmail.com")) {
 				this.email=email;
 				System.out.println(email);
 			}
 			
 			else {
-				System.out.println("invalid email");
+				System.out.println("invalid email, pls use gmail");
 			}
 			return email;
 			
 		}
 		public String getUserName(String userName) {
 			this.userName=userName;
-			if((String.valueOf(userName).length()==0)) {
+			if((userName.isEmpty())) {
 			System.out.println("username cannot be empty and username cannot be less than 6 characters");
-			}else if(String.valueOf(userName).length()<6) {
+			}else if(userName.length()<6) {
 				System.out.println("username cannot be less than 6 characters");
 			}
 				return userName;
@@ -37,9 +37,9 @@ public class Registration {
 			this.password=password;
 			if(password.contains(userName) ) {
 				System.out.println("password cannot contain username");
-			}else if(String.valueOf(password).length()<6) {
+			}else if(password.length()<6) {
 				System.out.println("password cannot be less than 6 characters");
-			}else if((String.valueOf(password).length()==0)) {
+			}else if((password).isEmpty()) {
 				System.out.println("password cannot be empty");
 			}
 			return password;

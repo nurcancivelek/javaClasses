@@ -8,7 +8,7 @@ public class DataDates {
 		
 		byte a=10;
 		byte b1=-128;
-		//byte b2=128; compiler will give an error
+		//byte b2=128; //compiler will give an error
 		
 		short s=6566;
 		short s1=-32768;
